@@ -29,6 +29,16 @@ moves, change that file in the same release, and the footer links in
   order.
 - Update the "Stand" / "Last updated" date in both files of a document when
   its content changes.
+- **The terms of use carry a version number** ("Version 1" next to the date).
+  The app asks every user to agree to the terms before they use it, and
+  `TermsOfUse.version` in the app repo (TrackPrintKit
+  `Onboarding/TermsOfUse.swift`) mirrors this number. A change that affects
+  users' rights or duties bumps the version in both files and in
+  `TermsOfUse.version` in the same release, so the app asks again. Keep the
+  version it replaces as an archive copy, `nutzungsbedingungen-v<N>.de.html`
+  and `nutzungsbedingungen-v<N>.en.html` (`<N>` is that version's number), so
+  what a user agreed to stays readable. Typos and pure clarifications keep the
+  version.
 - **Keep the documents true to the app.** The privacy policy names every
   place data leaves the device: Apple Music (MusicKit), MusicBrainz and the
   Cover Art Archive, iCloud (CloudKit), the feedback function on Vercel and
