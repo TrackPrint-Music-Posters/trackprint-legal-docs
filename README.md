@@ -40,11 +40,11 @@ moves, change that file in the same release, and the footer links in
   what a user agreed to stays readable. Typos and pure clarifications keep the
   version.
 - **Keep the documents true to the app.** The privacy policy names every
-  place data leaves the device: Apple Music (MusicKit), MusicBrainz and the
-  Cover Art Archive, iCloud (CloudKit), the feedback function on Vercel and
-  GitHub, and this site on GitHub Pages. A release that adds a service, a
-  request or a stored value updates the policy before it ships, together with
-  the app's privacy manifest and the App Privacy label in App Store Connect.
+  place data leaves the device: MusicBrainz and the Cover Art Archive, iCloud
+  (CloudKit), the feedback function on Vercel and GitHub, and this site on
+  GitHub Pages. A release that adds a service, a request or a stored value
+  updates the policy before it ships, together with the app's privacy
+  manifest and the App Privacy label in App Store Connect.
 - Each file is a standalone page: a short shared header (charset, viewport,
   `style.css`, language switch) around the document text. Edit only the text
   between the language switch and `</main>`.
