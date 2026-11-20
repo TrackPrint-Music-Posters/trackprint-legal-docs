@@ -40,7 +40,8 @@ moves, change that file in the same release, and the footer links in
   what a user agreed to stays readable. Typos and pure clarifications keep the
   version.
 - **Keep the documents true to the app.** The privacy policy names every
-  place data leaves the device: MusicBrainz and the Cover Art Archive, iCloud
+  place data leaves the device: MusicBrainz and the Cover Art Archive, Apple
+  Music (Now Playing's lookups of the album playing and its colours), iCloud
   (CloudKit), the feedback function on Vercel and GitHub, and this site on
   GitHub Pages. A release that adds a service, a request or a stored value
   updates the policy before it ships, together with the app's privacy
